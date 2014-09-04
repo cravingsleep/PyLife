@@ -59,7 +59,7 @@ while True:
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
-            sys.exit();
+            sys.exit()
         elif event.type == KEYUP and event.key == K_RIGHT:
             life.step()
         elif event.type == KEYUP and event.key == K_p:
